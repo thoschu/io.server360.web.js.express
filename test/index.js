@@ -1,6 +1,11 @@
 const express = require('express'),
+    morgan = require('morgan'),
     router = require('./router.js'),
     app = express();
+
+app.use(morgan('combined', {
+    immediate: true
+}));
 
 router(app);
 
