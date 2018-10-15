@@ -1,4 +1,4 @@
-# io.server360.web.js.express.verzeichnisstruktur
+# io.server360.web.js.express.structure
 
 https://expressjs.com/de/
 
